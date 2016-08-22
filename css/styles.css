@@ -1,0 +1,82 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 120px 0;
+    color:blue;
+    background-color: beige;
+    }
+
+ul{
+    padding: 5px;
+    }
+
+li{
+    list-style: none;
+}
+.main-block{
+    line-height: 1.3;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 80px 75px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+}
+.pic-profile{
+    position: absolute;
+    top: -60px;
+    left: 40%;
+    width: 155px;
+    height: 112px;
+    border-radius: 20%;
+    background: url('../image/gambarku.jpeg');
+    background-size: cover;
+}
+.pic-profile:hover{
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+}
+
+.name-header{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 9px 0 24px;
+    color: crimson;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 30px 0 8px;
+    color: #808080;
+}
+
+
+.sosial li{
+    display: inline-block;
+}
+.icon-sosial{
+    display: block;
+    width: 45px;
+    margin-right: 12px;
+    -webkit-transition: -webkit-transform .4s ease-in;
+            -transition: -webkit-transform .4s ease-in;
+            -transition          transform .4s ease-in;
+            -transition          transform .4s ease-in;
+}
+
+.icon-sosial:hover{
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+}
+.icon-sosial img{
+    width: 100%;
+}
+
+.bio{
+    color: darkblue;
+}
